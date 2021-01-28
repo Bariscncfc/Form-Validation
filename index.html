@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form Uygulaması</title>
+</head>
+<body>
+    <div class="container">
+        <form  id="form" class="form">
+            <h2>Giriş Yap</h2>
+            <div class="form-control">
+                <label for="username">Kullanıcı Adı:</label>
+                <input type="text"  id="username" placeholder="kullanıcı adını giriniz">
+                <small >Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="email">Mail Adresi:</label>
+                <input type="text"  id="email" placeholder="mail adresi giriniz">
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="password">Şifre</label>
+                <input type="password"  id="password" placeholder="Şifrenizi giriniz">
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="password2">Şifre Onayı</label>
+                <input type="password"  id="password2" placeholder="Şifrenizi tekrar giriniz">
+                <small>Error message</small>
+            </div>
+            <button type="submit">Giriş Yap</button>
+        </form>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
